@@ -1,5 +1,5 @@
 // Conexión al socket del servidor
-var socket = io.connect('http://localhost:4000');
+var socket = io.connect();
 
 // Referencias a los elementos del DOM
 var persona = document.getElementById('persona');
